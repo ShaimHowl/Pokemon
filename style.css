@@ -1,4 +1,41 @@
+body{
+    display: grid;
+    place-content: center;
+    padding: 20px;
+   
+}
 .pokemon-card{
     background-color: grey;
-    border: lem black;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px;
+    padding: 20px;
+    box-sizing: border-box;
+   text-align: center;
+}
+.pokemon-image {
+    max-width: 400px;        
+    border-radius: 10px;    
+    padding: 15px;
+}
+.pokemon-info {
+    background-color: lightgreen;
+    border: 15px;
+    padding: 20px;
+}
+.pokemon-name{
+    color: blue;
+    font-size: 40px;
+
+}
+.pokemon-type-plant {
+    color: green;
+    padding: 15px;
+}
+.pokemon-type-poison{
+    color: purple;
+    padding: 15px;
+}
+.pokemon-description{
+    font-size: 10px;
+    color: grey;
 }
