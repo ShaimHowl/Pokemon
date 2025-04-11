@@ -7,9 +7,10 @@ body{
 .pokemon-card{
     background-color: grey;
     border-radius: 15px;
-    box-shadow: 0 6px 10px;
+    box-shadow: 0 6px 20px;
     padding: 20px;
     box-sizing: border-box;
+    max-width: 450px;
    text-align: center;
 }
 .pokemon-image {
@@ -23,19 +24,15 @@ body{
     padding: 20px;
 }
 .pokemon-name{
+    font: oblique bold 110% cursive;
     color: blue;
     font-size: 40px;
 
 }
-.pokemon-type-plant {
-    color: green;
-    padding: 15px;
-}
-.pokemon-type-poison{
-    color: purple;
-    padding: 15px;
+.pokemon-type{
+    
 }
 .pokemon-description{
-    font-size: 10px;
+    font-size: 20px;
     color: grey;
 }
